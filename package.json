@@ -2,7 +2,7 @@
   "name": "mongodbcourse",
   "version": "1.0.0",
   "description": "code for M101JS: MongoDB for Node.js Developers",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/lbartroli/mongodb-course/issues"
   },
-  "homepage": "https://github.com/lbartroli/mongodb-course#readme"
+  "homepage": "https://github.com/lbartroli/mongodb-course#readme",
+  "dependencies": {
+    "consolidate": "^0.14.5",
+    "express": "^4.15.4",
+    "mongodb": "^2.2.31"
+  }
 }
