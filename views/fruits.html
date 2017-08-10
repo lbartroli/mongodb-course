@@ -1,0 +1,9 @@
+<form method="POST" action="/fruits">
+    {% for fruit in fruits %}
+    <div>
+        <label for="{{fruit}}">{{fruit}}</label>
+        <input id="{{fruit}}" type="radio" name="fruits" value="{{fruit}}" />
+    </div>
+    {% endfor %}
+    <input type="submit" value="Save" />
+</form>
